@@ -24,7 +24,7 @@ The dataset includes data of SyriaTel customer usage pattern and their churn sta
 Data includes:
 
 The Target:
-* Churn
+* churn
 
 Features/Predictors:
 * account length
@@ -44,7 +44,6 @@ Features/Predictors:
 * total international calls made
 * total international charge
 * number customer service calls made
-* churn
 
 ## Analysis
 
