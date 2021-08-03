@@ -1,6 +1,6 @@
-# SyriaTel Customer Churn Project
+![mobile_network](./images/mobile_network.png)
 
-> This repository contains our analysis on the SyriaTel customer churn dataset obtained from Kaggle. Our main objectives in this study are identifying what type of customers were churning and developing a model that could predict if a customer is likely to churn. In this readme document, we outline the busines problem, our methodology, our assumptions, and the different models we tested.
+# SyriaTel Customer Churn Project
 
 ## Table of Contents
 * [Overview](#overview)
@@ -10,8 +10,6 @@
 * [Features](#features)
 * [Project Structure](#project-structure)
 
-## Repository Links
-* [Tools package](/tools)
 
 ## Overview
 This project analyzes customer churn (customers leaving the provider) data from SyriaTel, a telecommunications provider, identifying what type of customers were churning and developing a model that could predict if a customer is likely to churn. SyriaTel can use this analysis to focus their efforts in modifying certain cellular plans, especially in key states such as NJ, CA, TX, MD, and SC. In additiona, SyriaTel can use the model can help identify which customers are likely to churn.
@@ -26,7 +24,7 @@ The dataset includes data of SyriaTel customer usage pattern and their churn sta
 Data includes:
 
 The Target:
-* Churn
+* churn
 
 Features/Predictors:
 * account length
@@ -46,7 +44,6 @@ Features/Predictors:
 * total international calls made
 * total international charge
 * number customer service calls made
-* churn
 
 ## Analysis
 
