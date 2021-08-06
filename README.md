@@ -3,12 +3,12 @@
 # SyriaTel Customer Churn Project
 
 ## Table of Contents
-* [Overview](#overview)
-* [Business Problem](#business-problem)
-* [Data](#data-sources-and-understanding)
-* [Analysis](#analysis)
-* [Features](#features)
-* [Project Structure](#project-structure)
+* [Overview](#Overview)
+* [Business Problem](#Business-problem)
+* [Data](#Data)
+* [Analysis](#Analysis)
+* [Features](#Features)
+* [Project Structure](#Project-Structure)
 
 
 ## Overview
