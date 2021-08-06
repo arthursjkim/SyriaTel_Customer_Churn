@@ -4,10 +4,12 @@
 
 ## Table of Contents
 * [Overview](#Overview)
-* [Business Problem](#Business-problem)
+* [Business Problem](#Business-Problem)
 * [Data](#Data)
 * [Analysis](#Analysis)
-* [Features](#Features)
+* [Results](#Results)
+* [Conclusions](#Conclusions)
+* [Next_Steps](#Next-Steps)
 * [Project Structure](#Project-Structure)
 
 
