@@ -96,9 +96,11 @@ Lastly, we then identified 5 of the states with the highest churn rate to priori
 To measure whether the implementation of a flat fee of 35 cents per minute across all customers who make more than 200 mins for day calls provides the best pricing for customers, further market research on pricing plans can be conducted across SyriaTel's main competitors. In order to further improve on lowering the churn rate across all customers, we would need to collect more data from users. One way to implement a next step is to conduct a customer satisfaction survey to pinpoint more specifically other areas that can be improved upon in order to provide better customer experiences for all SyriaTel users. Lastly, after a period of 12 months, we would also like to analyze the results of the implementations across the 5 highest churning states across the nation before deploying such recommendations on a national level. We hope to see that a fixed rate plan as well as an improved customer satisfaction ratio would be observed across NJ, CA, TX, MD, and SC. 
 
 ## Repository Structure 
+```
 ├── Data <--- CSV files
 ├── images <--- Pictures obtained from online and internally generated  
 ├── 01_syriatel_customer_churn_data_cleaning.ipynb - first notebook : cleans and explores the data
 ├── 02_syrialtel_customer_churn_modeling.ipynb - second notebook : models for the cleaned data
 ├── <INSERT HERE> <--- Presentation slides
 ├── README.md
+```
