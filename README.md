@@ -9,8 +9,8 @@
 * [Analysis](#Analysis)
 * [Results](#Results)
 * [Conclusions](#Conclusions)
-* [Next_Steps](#Next-Steps)
-* [Project Structure](#Project-Structure)
+* [Next Steps](#Next-Steps)
+* [Repository Structure](#Repository Structure)
 
 
 ## Overview
