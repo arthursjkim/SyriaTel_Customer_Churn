@@ -70,7 +70,7 @@ While it was important to assess all models based on the accuracy score, we have
 
 Before assessing which model performed the best, we created a baseline dummy model which assumed the most frequent category to serve as our baseline benchmark for comparison. We found that the baseline model had an accuracy of 85% by solely predicting "no churn" across all data. Hence, with this in mind, we wanted to place more emphasis on recall rather than accuracy as our main metric when evaluating how well our model performs. Looking at the plots below, we can  see that the baseline dummy model exhibited a high log loss of 5.033  and an accuracy score of 0.854 on the training data, and a log loss of 4.939 and an accuracy score of 0.857 as well numerous false negative predictions, which we seek to minimize. 
 
-![baseline_dummy_score_plot](./images/Baseline_Dummy_Model_plot.png)
+![baseline_dummy_score_plot](./images/Baseline_Dummy_Model_Plot.png)
 
 Across all of the models listed above, we have identified that the Gradient Boost Model was the best model and the most appropriate model given its mix of high recall score and accuracy score on training data and testing data and a low log loss score. On the training data, the Gradient Boost Model exhibited a low log loss of 0.621, an accuracy of 0.981, and a recall of 0.876. On the testing data, the same model exhibited a log loss of 0.52, an accuracy of 0.984, and a recall score of 0.888. The best model also significantly reduced the amount of false negative values, down from 340 and 143 on the training and testing data for the baseline model to 42 and 16 on the training and testing data on the Gradient Boost Model.
 
