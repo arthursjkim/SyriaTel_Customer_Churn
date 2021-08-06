@@ -68,12 +68,23 @@ While it was important to assess all models based on the accuracy score, we have
 
 ## Results
 
+Across all of the models listed above, we have identified that the Gradient Boost Model was the best model and the most appropriate model given its mix of high recall score and accuracy score on training data and testing data and a low log loss score. 
+
+![gradient_boost_score_plot](./images/Gradient_Boost_Scores_Plot.png)
+
+Moving forward with the Gradient Boost Model as our best model for predicting churn, we then identified the key features importances that impacted this model the most: total charge minutes day and call satisfaction. 
 
 
 ## Conclusions
 
 In conclusion, we have identified two of the most import key features when predicting a customer's churn rate in our best-performing Gradient Boost Model. The first key feature with a high influence on churn rate prediction is total charge. To better assess and apply this metric on our customers to decrease the churn rate, we looked into "total day minutes" as well as "charge per minute per day" as our anlaysis concluded that call minutes made during the daytime versus that of any other time segment had a bigger impact between customers who churn and those who do not churn. We implemented a recommendation to adjust a customer's charge per minute by looking at the 50% percentile of total day minutes to determine a cut off of 200 minutes as a threshold cut off. At this cut off at the 50% percentile, we then saw that 35 cent as a charge per daytiem minutes would be an appropriate fixed rate to implement at the cut off. Hence, we recommend SyriaTel to provide all customers who make 200 minutes of calls during the day with a fixed rate plan of 35 cents per minute for day calls. 
 
+We then identified the second important key feature when predicting a customer's churn rate, which is customer satisfaction as we discovered that customer dissatisfaction is higher amongst customers who churn. Hence identifying ways to improve customer satisfaction by lowering the customer service call rate would help reduce churn (defined as all customer service calls over total calls). We suggested implementing a targeted approach decrease the call ratio by providing better service to our customers during their customer service calls to decrease the need for customers to make any additional or future calls. 
+
+Lastly, we then identified 5 of the states with the highest churn rate to prioritize the deployment of these suggestions. By implementing these recommendations in the top 5 states with the highest churn rate, we were able to lower the churn rate for these 5 states from a range of 23% - 26% churn down to a range of 13% to 21% churn for NJ, CA, TX, MD, and SC.  
+
 ## Next Steps
+
+To measure whether the implementation of a flat fee of 35 cents per minute across all customers who make more than 200 mins for day calls provides the best pricing for customers, further market research on pricing plans can be conducted across SyriaTel's main competitors. In order to further improve on lowering the churn rate across all customers, we would need to collect more data from users. One way to implement a next step is to conduct a customer satisfaction survey to pinpoint more specifically other areas that can be improved upon in order to provide better customer experiences for all SyriaTel users. Lastly, after a period of 12 months, we would also like to analyze the results of the implementations across the 5 highest churning states across the nation before deploying such recommendations on a national level. We hope to see that a fixed rate plan as well as an improved customer satisfaction ratio would be observed across NJ, CA, TX, MD, and SC. 
 
 ## Repository Structure
