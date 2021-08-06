@@ -97,10 +97,13 @@ To measure whether the implementation of a flat fee of 35 cents per minute acros
 
 ## Repository Structure 
 ```
-├── Data <--- CSV files
-├── images <--- Pictures obtained from online and internally generated  
-├── 01_syriatel_customer_churn_data_cleaning.ipynb - first notebook : cleans and explores the data
-├── 02_syrialtel_customer_churn_modeling.ipynb - second notebook : models for the cleaned data
-├── <INSERT HERE> <--- Presentation slides
+├── data     <-- data files
+│   ├── syrialtel_cleaned_data.csv     <--- cleaned data file
+│   ├── syriatel_customer_churn_raw.csv     <--- raw data file
+│   └── us_regdiv.pdf     <--- Census document used for State to Region classification
+├── images     <--- pictures from online/internally generated  
+├── 01_syriatel_customer_churn_data_cleaning.ipynb     <-- first notebook : cleans and explores the data
+├── 02_syrialtel_customer_churn_modeling.ipynb     <-- second notebook : models for the cleaned data
+├── SyriaTel_Customer_Churn_Presentation.pdf     <-- presentation slides
 ├── README.md
 ```
