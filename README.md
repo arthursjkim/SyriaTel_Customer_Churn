@@ -10,7 +10,7 @@
 * [Results](#Results)
 * [Conclusions](#Conclusions)
 * [Next Steps](#Next-Steps)
-* [Repository Structure](#Repository Structure)
+* [Repository_Structure](#Repository Structure)
 
 
 ## Overview
